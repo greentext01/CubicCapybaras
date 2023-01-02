@@ -1,4 +1,4 @@
-package dev.oliveman.CubicCapybaras
+package dev.oliveman.cubic.capybaras
 
 import org.bukkit.Material
 import org.bukkit.event.EventHandler
@@ -25,6 +25,7 @@ class CubicCapybaras : JavaPlugin() {
 Is starting up!""")
         
         server.pluginManager.registerEvents(RecipeDisabler(), this)
+        server.pluginManager.registerEvents(CapybaraSpawnHandler(), this)
     }
 }
 

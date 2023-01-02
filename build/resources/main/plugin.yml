@@ -1,0 +1,13 @@
+name: CubicCapybaras
+main: dev.oliveman.cubic.capybaras.CubicCapybaras
+version: 0.0.1
+commands:
+  capybara:
+    description: Spawns a capybara
+    usage: /capybara
+api-version: 1.19
+author: Oliveman
+depend: [ ModelEngine ]
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21
+  - org.jetbrains.kotlin:kotlin-reflect:1.7.21
