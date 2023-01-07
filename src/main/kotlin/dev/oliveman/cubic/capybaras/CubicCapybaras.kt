@@ -26,6 +26,7 @@ Is starting up!""")
         
         server.pluginManager.registerEvents(RecipeDisabler(), this)
         server.pluginManager.registerEvents(CapybaraSpawnHandler(), this)
+        server.pluginManager.registerEvents(CopperMinedHandler(), this)
     }
 }
 
